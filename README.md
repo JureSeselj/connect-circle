@@ -548,3 +548,27 @@ I used set the projects according to the application's functionality and set up 
 
 ---
 
+## Information Architecture
+
+### Database
+
+* The database was created using PostgreSQL.
+
+### Entity-Relationship Diagram
+
+
+![ERD]()
+
+
+### Data Modeling
+
+
+#### UserToken Model
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| user_id       | user_id       | IntegerField  |           |
+| token         | token         | CharField     | max-length=255 |
+| created_at    | created_at    | DateTimeField |           |
+| expired_at    | expired_at    | DateTimeField |           |
+
+
