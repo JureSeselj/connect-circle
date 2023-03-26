@@ -50,3 +50,7 @@ The website is created to be accessible to all users. The website is designed to
 
 The Business Model is B2C, meaning that the company sells products (subscriptions) to customers only.
 It's only focused in the individual transactions at the moment.
+
+### Target customers
+
+ConnectCircle potential customers is the people who want to meet virtually. It includes friends who simply want to meet, colleges who are living in remote areas and have to discuss some urgent matters, and even students who wants to organize a study group. It excludes people who are younger than 13 years old.
