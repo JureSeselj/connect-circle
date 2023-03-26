@@ -83,7 +83,7 @@ The newsletter subscription is a great way to deliver the latest news and update
 
 ---
 
-## Features
+# Features
 ​
 ### NavBar
 ​
@@ -105,7 +105,7 @@ There are 2 types of the navbar:
 ​
   - It has a profile button. If user clicks this button, the user will see a sidebar with the user's profile information:
 ​
-![Sidebar]()
+![SideBar]()
 ​
     It also has 3 buttons:
 ​
@@ -115,11 +115,11 @@ There are 2 types of the navbar:
 ​
   **Note:** If user bought a subscription, there will be an additional button "Create Meeting" in the sidebar.
 ​
-![Sidebar]()
+![SideBar]()
 ​
   - "Home" button: takes the user to the User's home page. If user is already on the his/her home page, the button will not be displayed.
 ​
-![Home button]()
+![Home Button]()
 ​
   - "Logout" button: logs the user out.
 
