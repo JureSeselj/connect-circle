@@ -123,15 +123,13 @@ There are 2 types of the navbar:
 ​
   - "Logout" button: logs the user out.
 
-* Home Page
+### Home Page
 
 ![Home page]()
 
 This is the home page of the website. It has the description of the website and focus on potential customers to join the community.
 
 It includes the following features:
-
-
 
 * Hero Section :
 
@@ -144,7 +142,7 @@ It includes the call to action: "Absolutely new level of cloud meetings. Our pla
 - "Learn More" button: takes the user to the benefits section of the home page;
 - "Get Started" button: takes the user to the register page.
 
-3. Benefits Section :
+* Benefits Section :
 
 ![Benefits Section]()
 
@@ -157,10 +155,44 @@ This section describes the benefits of choosing this platform over other platfor
   - Open source.
   - Trusted security.
 
-4. Get Started Section :
+* Get Started Section :
 
 ![Get started section]()
 
 This section has a call to action to get people to join ConnectCircle community and a buttons:
 
   - "See pricing" button: takes the user to the pricing page;
+
+### Pricing Page
+
+**When the user is logged out.**
+
+![Pricing Page]()
+
+It has the same navbar and footer as a Home page.
+
+It has a title and 3 pricing plans' cards, which include full information about the plans and a "Buy Now" button.
+
+* Basic Plan :
+
+![Basic Plan]()
+
+* Premium Plan :
+
+![Premium Plan]()
+
+* Enterprise Plan :
+
+![Enterprise Plan]()
+
+If the user is not logged in, the user will see a alert message to register/login first.
+
+Under the pricing cards there is a call to action to get people to join ConnectCircle community and a buttons:
+
+![Get started section]()
+
+**When the user is logged in:**
+
+![Pricing Page]()
+
+When the user clicks "Buy Now" button, the user is taken to the payment page.
