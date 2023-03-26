@@ -604,4 +604,24 @@ I used set the projects according to the application's functionality and set up 
 | can_create_rooms | can_create_rooms | BooleanField | default=False |
 | stripe_plan_id | stripe_plan_id | CharField     | max_length=255, blank=True, null=True |
 
+#### Membership Model
+
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| user          | user          | OneToOneField |   User, on_delete=models.CASCADE, related_name='membership'        |
+| is_active     | is_active     | BooleanField  | default=True |
+| type          | type          | ForeignKey    | SubscriptionPlan, on_delete=models.CASCADE, related_name='memberships'        |
+| default     | default     | SubscriptionPlan.objects.get(name='Free').id) |           |
+| opened_at     | opened_at     | DateTimeField |           |
+| renewed_at    | renewed_at    | DateTimeField |           |
+| expires_at    | expires_at    | DateTimeField |  null=True, blank=True         |
+| stripe_id     | stripe_id     | CharField     | max_length=255, blank=True, null=True |
+
+#### Payment Model
+
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| membership    | membership    | ForeignKey    | Membership, on_delete=models.CASCADE, related_name='payments'        |
+| created_at    | created_at    | DateTimeField |           |
+| amount        | amount        | DecimalField  | max_digits=10, decimal_places=2, blank=True, null=True |
 
