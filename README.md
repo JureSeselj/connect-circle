@@ -414,3 +414,16 @@ Login button and a link to register page and forgot password page. When user cli
 When the user attempts to change the password, the user will receive an alert email to warn him/her about the security:
 
 ![Forgot password email]()
+
+### Contact Form Page
+
+![Contact Form Page]()
+This page has a form to contact the support.
+
+For the logged in user, the fields will be prefilled with the user's data.
+
+![Contact Form Page]()
+
+After successfully submitting the form, the user will get an email with a confirmation message.
+
+![Contact form page]()
