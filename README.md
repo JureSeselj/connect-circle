@@ -526,3 +526,25 @@ The is only one image that was used in the application to make the landing page 
 
 This image was taken from []().
 
+### Wireframes
+
+[ConnectCircle Wireframes]()
+
+---
+
+## Agile Methodology
+
+### GitHub Project Management
+
+![GitHub Project Management]()
+
+GitHub Project Management was used as the main method to manage the project. It was used to control the project's workflow and to track the project's progress. The project was created using [GitHub](www.github.com).
+
+I used set the projects according to the application's functionality and set up issues for each feature to keep control of the development.
+
+![GitHub Project Management]()
+
+![Tasks]()
+
+---
+
