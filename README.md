@@ -85,7 +85,7 @@ The newsletter subscription is a great way to deliver the latest news and update
 
 # Features
 ​
-* NavBar
+### NavBar
 ​
 There are 2 types of the navbar:
 ​
@@ -196,3 +196,30 @@ Under the pricing cards there is a call to action to get people to join ConnectC
 ![Pricing Page]()
 
 When the user clicks "Buy Now" button, the user is taken to the payment page.
+
+### Footer
+​
+![Footer]()
+​
+It has a logo, email, phone number. It also has the following links:
+​
+- "Contact" button: takes the user to the contact form page.
+- "Terms of use" button: takes the user to the terms of use page.
+- "Privacy policy" button: takes the user to the privacy policy page.
+- "Newsletter" button: opens modal form with the newsletter form.
+​
+![Newsletter]()
+​
+  - If the user has already subscribed to the newsletter, the "Newsletter" form will show an error message.
+​
+![Newsletter]()
+​
+  - When the user subscribes to the newsletter, the user will receive an email with a confirmation message.
+​
+![Newsletter]()
+​
+  - If user clicks " unsubscribe" link in thee email, the user will be unsubscribed from the newsletter
+​
+![Newsletter]() 
+​
+- Social media icons (Facebook, Twitter, Instagram, LinkedIn): takes the user to the social media pages.
