@@ -507,3 +507,14 @@ It will have the following buttons:
 ## Design
 
 The idea of the design was taken from [Prime React](https://www.primefaces.org/primereact/). It helped to create clean and attractive design. The simplicity of the design was also taken into consideration as it was a main goal to keep users' attention on the functionality of the application.
+
+### Color Palette
+
+### Typography
+
+The typography was designed to be readable and easy to use.
+
+Font-family: Roboto, Helvetica Neue Light, sans-serif;
+
+This font-families are coming from Prime React.
+
