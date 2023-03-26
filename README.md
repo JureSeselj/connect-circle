@@ -577,5 +577,31 @@ I used set the projects according to the application's functionality and set up 
 | Email         | email         | EmailField    |           |
 | token         | token         | CharField     | max-length=255 |
 
+#### User Model
+
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| avatar        | avatar        | CloudinaryField |   folder='cloud_meetings_avatars', null=True, blank=True,        |
+| email         | email         | EmailField    | unique=True, max_length=254 |
+| Username      | username      | None     |  |
+| first_name    | first_name    | CharField     | max_length=50 |
+| last_name     | last_name     | CharField     | max_length=50 |
+| birth_date    | birth_date    | DateField     |   |
+| country       | country       | CharField     | max_length=100 |
+| camera_id     | camera_id     | CharField     | max_length=100, null=True, blank=True |
+| microphone_id | microphone_id | CharField     | max_length=100, null=True, blank=True |
+
+#### SubscriptionPlan Model
+
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| name          | name          | CharField     | max_length=255 |
+| price         | price         | DecimalField  | max_digits=10, decimal_places=2 |
+| description   | description   | TextField     |           |
+| created_at    | created_at    | DateTimeField |           |
+| updated_at    | updated_at    | DateTimeField |           |
+| guest_limit   | guest_limit   | IntegerField  | defualt=0 |
+| can_create_rooms | can_create_rooms | BooleanField | default=False |
+| stripe_plan_id | stripe_plan_id | CharField     | max_length=255, blank=True, null=True |
 
 
