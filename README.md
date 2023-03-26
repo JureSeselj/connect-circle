@@ -253,3 +253,54 @@ User can also download the invoice for the payment.
 If the payment is not successful, the user will receive an email with the error message and the link to the stripe customer portal.
 
 ![Failed payment page]()
+
+### User Dashboard
+
+![User Dashboard]()
+
+It has 4 cards:
+
+* Profile card :
+
+![Profile card]()
+
+This card has a User name, User email, and a button "Profile page". If the user clicks this button, the user will be redirected to the profile page.
+
+* Pricing card :
+
+![Pricing card]()
+
+It has subscription plan and the description of functionality according to the plan.
+
+It also has a button "See pricing" that takes the user to the pricing page.
+
+If user has purchased a subscription plan, this card will look different.
+
+![Pricing card]()
+
+If user clicks "See subscription" button, the user will be redirected to the subscription page.
+
+* Settings card :
+
+![Settings card]()
+
+It has a data on the current camera and microphone settings. There is a button "Settings" that takes the user to the settings page.
+
+* Meetings card :
+
+![Meetings card]()
+
+It has short description of the meeting's card and 2 buttons:
+
+  - "Create meeting" button: takes the user to the create meeting page. *This button is disabled if the user is using free plan.*
+  - "Join meeting" button: takes the user to the join meeting page. When the user clicks this button, the user will see a modal window with an input field to enter the meeting's token:
+
+![Join meeting modal]()
+
+If the user enters a valid token, the user will be redirected to the meeting page.
+
+If the user has purchased a subscription plan, this card will look differently:
+
+![Meetings card]()
+
+  When the user clicks "Create Meeting" button, user will be redirected to Create meeting page.
