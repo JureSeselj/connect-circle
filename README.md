@@ -17,7 +17,7 @@ The website is created to be accessible to all users. The website is designed to
 
 ## User Stories
 
-* First time visitor
+#### First time visitor
 
 - As a first time visitor, I want to be able to see an informative page about the application, so that I can understand what's about.
 - As a first time visitor, I want to be able to see a list of all pricing plans, so that I can choose one.
@@ -27,7 +27,7 @@ The website is created to be accessible to all users. The website is designed to
 
 ---
 
-* Registered user
+#### Registered user
 
 - As a registered user, I want to be able to see my account informations, so that I can update my informations.
 - As a registered user, I want to be able to see my payment history, so that I can see what I have paid for.
@@ -45,3 +45,8 @@ The website is created to be accessible to all users. The website is designed to
 - As a registered user, I want to be able to control microphones of other users, so that I can control them in a meeting I created.
 
 ---
+
+## Business model
+
+The Business Model is B2C, meaning that the company sells products (subscriptions) to customers only.
+It's only focused in the individual transactions at the moment.
