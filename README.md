@@ -82,3 +82,45 @@ Having a page on facebook is a great way to get people to join the meeting on Co
 The newsletter subscription is a great way to deliver the latest news and updates to the users and subscribers.
 
 ---
+
+## Features
+​
+### NavBar
+​
+There are 2 types of the navbar:
+​
+* Navbar for logged out users:
+​
+![NavBar]()
+​
+  - "Home" button: takes the user to the home page.
+  - "Pricing" button: takes the user to the pricing page.
+  - "Contact" button: takes the user to the contact form page.
+  - "Login" button: takes the user to the login page.
+  - "Register" button: takes the user to the register page.
+
+* Navbar for logged in users:
+​
+![NavBar]()
+​
+  - It has a profile button. If user clicks this button, the user will see a sidebar with the user's profile information:
+​
+![Sidebar]()
+​
+    It also has 3 buttons:
+​
+    - "Home" button: takes the user to the home page.
+    - "Profile" button: takes the user to the profile page.
+    - "Settings" button: takes the user to the settings page.
+​
+  **Note:** If user bought a subscription, there will be an additional button "Create Meeting" in the sidebar.
+​
+![Sidebar]()
+​
+  - "Home" button: takes the user to the User's home page. If user is already on the his/her home page, the button will not be displayed.
+​
+![Home button]()
+​
+  - "Logout" button: logs the user out.
+
+---
