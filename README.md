@@ -304,3 +304,23 @@ If the user has purchased a subscription plan, this card will look differently:
 ![Meetings card]()
 
   When the user clicks "Create Meeting" button, user will be redirected to Create meeting page.
+
+### Create Meeting Page
+
+![Create meeting page]()
+
+If user bought enterprise plan, this page will have all 3 options for Max guests.
+
+If user bought premium plan, this page will have only 2 options for Max guests (11 guests buttons will be disabled).
+
+If user bought basic plan, this page will have only 1 option for Max guests ( 8 and 9 guests buttons will be disabled).
+
+![Create meeting page]()
+
+If the user without a subscription plan comes to this page by directly typing the URL, the page will be redirected to the home page and an alert message will be shown.
+
+### Edit Profile Page
+
+![Edit Profile page]()
+
+This page has a form to edit the user's profile. The user can edit his first name, last name, birthday, country, password, and avatar. After clicking "Save" button, the user will be redirected to the user dashboard.
