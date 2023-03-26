@@ -324,3 +324,55 @@ If the user without a subscription plan comes to this page by directly typing th
 ![Edit Profile page]()
 
 This page has a form to edit the user's profile. The user can edit his first name, last name, birthday, country, password, and avatar. After clicking "Save" button, the user will be redirected to the user dashboard.
+
+### Settings Page
+
+![Settings page]()
+
+This page allows user to set the camera and microphone settings.
+
+When user click on camera, the user will see a selected options:
+
+![Settings page]()
+
+When the camera is selected, the user will see a preview of the camera.
+
+![Settings page]()
+
+![Settings page]()
+
+When user click on microphone, the user will see a selected options:
+
+![Settings page]()
+
+When the microphone is selected, the user will see a knob that shows the volume of the microphone.
+
+![Settings page]()
+
+When user click "Save" button, the settings will be saved.
+
+As it's shown in the screenshots, the user will be able to see chosen camera and microphone in different color:
+
+![Settings page]()
+
+### Subscription Page
+
+![Subscription page]()
+
+This page has a data on the current subscription plan and provides data on the future payments.
+
+It has 3 buttons:
+
+- History button: opens a modal window with the history of the payments.
+
+![History modal]()
+
+- Portal button: stripe customer portal for the user to manage his payments.
+
+- Cancel button: to cancel subscription.
+
+![Cancel modal]()
+
+When the order is cancelled, the user will receive an email with a confirmation message and the money will be refunded.
+
+![Cancel email]()
