@@ -625,3 +625,18 @@ I used set the projects according to the application's functionality and set up 
 | created_at    | created_at    | DateTimeField |           |
 | amount        | amount        | DecimalField  | max_digits=10, decimal_places=2, blank=True, null=True |
 
+#### PaymentHistory Model
+
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| user          | user          | ForeignKey    | User, on_delete=models.CASCADE, related_name='payment_history'        |
+| payments      | payments      | ManyToManyField | Payment, related_name='payment_history'        |
+
+#### ContactUs Model
+
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| name          | name          | CharField     | max_length=100 |
+| email         | email         | EmailField    |  |
+| subject       | subject       | CharField     | max_length=100 |
+| message       | message       | TextField     |           |
