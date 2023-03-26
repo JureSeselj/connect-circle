@@ -518,3 +518,11 @@ Font-family: Roboto, Helvetica Neue Light, sans-serif;
 
 This font-families are coming from Prime React.
 
+### Images
+
+The is only one image that was used in the application to make the landing page more eye-catching.
+
+![Home page Hero image]()
+
+This image was taken from []().
+
