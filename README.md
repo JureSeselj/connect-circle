@@ -640,3 +640,27 @@ I used set the projects according to the application's functionality and set up 
 | email         | email         | EmailField    |  |
 | subject       | subject       | CharField     | max_length=100 |
 | message       | message       | TextField     |           |
+
+#### NewsletterSubscription Model
+
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| email         | email         | EmailField    |  |
+
+#### VideoRoom Model
+
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| token         | token         | CharField     | max_length=32, default=create_room_token |
+| host          | host          | OneToOneField |   User, on_delete=models.CASCADE, related_name='hosting_room'        |
+| max_guests    | max_guests    | IntegerField  | default=3 |
+| guests        | guests        | ManyToManyField | User, related_name='current_rooms', blank=True |
+| screen_sharing_enabled | screen_sharing_enabled | BooleanField | default=False |
+| presentation_enabled | presentation_enabled | BooleanField | default=False |
+| chat_enabled | chat_enabled | BooleanField | default=False |
+| protected | protected | BooleanField | default=False |
+| guests_input_control | guests_input_control | BooleanField | default=False |
+| password | password | CharField | max_length=32, default='', blank=True, null=True |
+| guests_muted | guests_muted | BooleanField | default=False |
+
+---
