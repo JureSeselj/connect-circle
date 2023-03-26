@@ -57,7 +57,7 @@ ConnectCircle potential customers is the people who want to meet virtually. It i
 
 ### Strategy Plan
 
-* The strategy trade-off plan is to make the application as user friendly as possible.
+The strategy trade-off plan is to make the application as user friendly as possible.
 
 - Simple interface.
 - Easy to use.
@@ -68,5 +68,17 @@ ConnectCircle potential customers is the people who want to meet virtually. It i
 - Low cost of the subscription plan.
 - Security of the application.
 - Tech support.
+
+---
+
+## Web Marketing
+
+* Facebook
+
+Having a page on facebook is a great way to get people to join the meeting on ConnectCircle. Facebook has millions of users and is a great way to get people to become members of ConnectCircle community, it may easily lure new customers and increase the number of members who are purchasing the subscription plans.
+
+* Newsletter
+
+The newsletter subscription is a great way to deliver the latest news and updates to the users and subscribers.
 
 ---
