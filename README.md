@@ -427,3 +427,17 @@ For the logged in user, the fields will be prefilled with the user's data.
 After successfully submitting the form, the user will get an email with a confirmation message.
 
 ![Contact form page]()
+
+### Alert Messages
+
+To notify user about the result of the action, the system will display an alert messages in the right top corner of each page.
+
+  - Success: the action was successful.
+
+![Success alert]()
+
+  - Error: the action was not successful.
+
+![Error alert]()
+
+--- 
