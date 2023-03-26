@@ -571,4 +571,11 @@ I used set the projects according to the application's functionality and set up 
 | created_at    | created_at    | DateTimeField |           |
 | expired_at    | expired_at    | DateTimeField |           |
 
+#### ForgotPasswordToken Model
+| Name          | Database Key  | Field Type    | Validation |
+| ------------- | ------------- | ------------- | ---------- |
+| Email         | email         | EmailField    |           |
+| token         | token         | CharField     | max-length=255 |
+
+
 
