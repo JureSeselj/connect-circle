@@ -376,3 +376,41 @@ It has 3 buttons:
 When the order is cancelled, the user will receive an email with a confirmation message and the money will be refunded.
 
 ![Cancel email]()
+
+### Register Page
+
+![Register Page]()
+
+This page has the following fields:
+
+- First name.
+- Last name
+- Email.
+- Password
+- Confirm password.
+- Birthday.
+- Country.
+
+It has a checkbox in order to confirm that the user agreed to the terms and a register button;
+
+If user has already created account before, he/she can use "Already have an account? Login" link to redirect to Login page.
+
+When the user registers, the user will receive an email with a confirmation message.
+
+![Register modal]()
+
+
+### Login Page
+
+![Login Page]()
+
+This form has 2 fields:
+
+- User email.
+- Password.
+
+Login button and a link to register page and forgot password page. When user clicks "Register" link, he or she will be redirected to Register page. If user clicks "Forgot Password", he or she will be redirected to forgot password page.
+
+When the user attempts to change the password, the user will receive an alert email to warn him/her about the security:
+
+![Forgot password email]()
