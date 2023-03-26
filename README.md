@@ -85,7 +85,7 @@ The newsletter subscription is a great way to deliver the latest news and update
 
 # Features
 ​
-### NavBar
+* NavBar
 ​
 There are 2 types of the navbar:
 ​
@@ -123,4 +123,44 @@ There are 2 types of the navbar:
 ​
   - "Logout" button: logs the user out.
 
----
+* Home Page
+
+![Home page]()
+
+This is the home page of the website. It has the description of the website and focus on potential customers to join the community.
+
+It includes the following features:
+
+
+
+* Hero Section :
+
+![Hero Section]()
+
+It has a content on the left side and a background image on the right side.
+
+It includes the call to action: "Absolutely new level of cloud meetings. Our platform is the best way to manage your meetings and video calls.". It also has 2 buttons:
+
+- "Learn More" button: takes the user to the benefits section of the home page;
+- "Get Started" button: takes the user to the register page.
+
+3. Benefits Section :
+
+![Benefits Section]()
+
+This section describes the benefits of choosing this platform over other platforms.
+
+  - Built for Everyone.
+  - End-to-End Encryption.
+  - Easy to use.
+  - Fast & Global support.
+  - Open source.
+  - Trusted security.
+
+4. Get Started Section :
+
+![Get started section]()
+
+This section has a call to action to get people to join ConnectCircle community and a buttons:
+
+  - "See pricing" button: takes the user to the pricing page;
