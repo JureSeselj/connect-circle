@@ -441,3 +441,65 @@ To notify user about the result of the action, the system will display an alert 
 ![Error alert]()
 
 --- 
+
+### Meeting Page
+
+![Meeting page]()
+
+![Meeting page]()
+
+![Meeting page]()
+
+![Meeting page]()
+
+![Meeting page]()
+
+- If the user is the host, the navigation bar will look like this:
+
+![Meeting page]()
+
+It will have the following buttons:
+
+1. Copy room token button: copies the room token to the clipboard.
+
+![Copy room token button]()
+
+2. Camera button: toggles the camera on/off.
+
+![Camera button]()
+
+![Camera button]()
+
+3. Microphone button: toggles the microphone on/off.
+
+![Microphone button]()
+
+4. Mute all controls button: toggles the mute all controls on/off.
+
+![Mute all controls button]()
+
+![Mute all controls button]()
+
+5. End meeting button: ends the meeting.
+
+![End meeting button]()
+
+6. Fullscreen button: toggles the full screen on/ off.
+
+![Fullscreen button]()
+
+- If the user is not the host, the navigation bar will look like this:
+
+![Meeting page]()
+
+It will have the following buttons:
+
+* Camera button: toggles the camera on/off.
+* Microphone button: toggles the microphone on/off.
+* Leave meeting button: leaves the meeting.
+
+![Leave meeting button]()
+
+* Fullscreen button: toggles the full screen on/off.
+
+--- 
