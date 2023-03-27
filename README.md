@@ -528,7 +528,7 @@ This image was taken from []().
 
 ### Wireframes
 
-[ConnectCircle Wireframes]()
+[ConnectCircle Wireframes](documentation/design/ConnectCircle_wireframes(1).pdf)
 
 ---
 
