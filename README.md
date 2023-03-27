@@ -9,6 +9,8 @@ To use the application, you need to register an account. Users are encouraged to
 
 ---
 
+## Table of Contents
+
 ## User Experience - UX
 
 The website is created to be accessible to all users. The website is designed to be easy to use and intuitive. The navigation is simple to understand and easy to use. The background of the app is consistent with the design and aimed at keeping the user's attention on the app.
@@ -43,6 +45,38 @@ The website is created to be accessible to all users. The website is designed to
 - As a registered user, I want to be able to turn on/off my microphone, so that other users can or cannot hear me.
 - As a registered user, I want to be able to turn on/off my camera, so that other users can or cannot see me.
 - As a registered user, I want to be able to control microphones of other users, so that I can control them in a meeting I created.
+
+---
+
+## Agile Methodology
+
+All functionality and development of this project were managed using GitHub which Projects can be found
+[here](https://github.com/JureSesel/connect-circle/issues)
+## Design
+
+The idea of the design was taken from [Prime React](https://www.primefaces.org/primereact/). It helped to create clean and attractive design. The simplicity of the design was also taken into consideration as it was a main goal to keep users' attention on the functionality of the application.
+
+### Color Palette
+
+### Typography
+
+The typography was designed to be readable and easy to use.
+
+Font-family: Roboto, Helvetica Neue Light, sans-serif;
+
+This font-families are coming from Prime React.
+
+### Images
+
+The is only one image that was used in the application to make the landing page more eye-catching.
+
+![Home page Hero image]()
+
+This image was taken from []().
+
+### Wireframes
+
+Wireframes for this project can be located [ here ](documentation/design/ConnectCircle_wireframes.pdf)
 
 ---
 
@@ -503,37 +537,6 @@ It will have the following buttons:
 * Fullscreen button: toggles the full screen on/off.
 
 --- 
-
-## Design
-
-The idea of the design was taken from [Prime React](https://www.primefaces.org/primereact/). It helped to create clean and attractive design. The simplicity of the design was also taken into consideration as it was a main goal to keep users' attention on the functionality of the application.
-
-### Color Palette
-
-### Typography
-
-The typography was designed to be readable and easy to use.
-
-Font-family: Roboto, Helvetica Neue Light, sans-serif;
-
-This font-families are coming from Prime React.
-
-### Images
-
-The is only one image that was used in the application to make the landing page more eye-catching.
-
-![Home page Hero image]()
-
-This image was taken from []().
-
-### Wireframes
-
-[ConnectCircle Wireframes](documentation/design/ConnectCircle_wireframes.pdf)
-
----
-
-## Agile Methodology
-
 ### GitHub Project Management
 
 ![GitHub Project Management]()
