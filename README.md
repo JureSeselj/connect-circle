@@ -51,7 +51,7 @@ The website is created to be accessible to all users. The website is designed to
 ## Agile Methodology
 
 All functionality and development of this project were managed using GitHub which Projects can be found
-[here](https://github.com/JureSesel/connect-circle/issues)
+[here](https://github.com/JureSeselj/connect-circle/issues)
 ## Design
 
 The idea of the design was taken from [Prime React](https://www.primefaces.org/primereact/). It helped to create clean and attractive design. The simplicity of the design was also taken into consideration as it was a main goal to keep users' attention on the functionality of the application.
@@ -77,6 +77,20 @@ This image was taken from []().
 ### Wireframes
 
 Wireframes for this project can be located [ here ](documentation/design/ConnectCircle_wireframes.pdf)
+
+---
+
+### GitHub Project Management
+
+![GitHub Project Management](documentation/agile/github_project.png)
+
+GitHub Project Management was used as the main method to manage the project. It was used to control the project's workflow and to track the project's progress. The project was created using [GitHub](www.github.com).
+
+I used set the projects according to the application's functionality and set up issues for each feature to keep control of the development.
+
+![GitHub Project Management](documentation/agile/kanban.png)
+
+![Tasks](documentation/agile/tasks.png)
 
 ---
 
@@ -537,20 +551,6 @@ It will have the following buttons:
 * Fullscreen button: toggles the full screen on/off.
 
 --- 
-### GitHub Project Management
-
-![GitHub Project Management]()
-
-GitHub Project Management was used as the main method to manage the project. It was used to control the project's workflow and to track the project's progress. The project was created using [GitHub](www.github.com).
-
-I used set the projects according to the application's functionality and set up issues for each feature to keep control of the development.
-
-![GitHub Project Management]()
-
-![Tasks]()
-
----
-
 ## Information Architecture
 
 ### Database
