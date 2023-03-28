@@ -10,6 +10,60 @@ To use the application, you need to register an account. Users are encouraged to
 ---
 
 ## Table of Contents
+- [Connect Circle - Introduction](#connect-circle---introduction)
+  - [User Experience - UX](#user-experience---ux)
+      - [User Stories](#user-stories)
+      - [Agile Methodology](#agile-methodology)
+  - [Design](#design)
+      - [Colours](#colours)
+      - [Typography](#typography)
+      - [Imagery](#imagery)
+      - [Wireframes](#wireframes)
+      - [GitHub Project Management](#github-project-management)
+  - [Business Model](#business-model)
+      - [Target Customers](#target-customers)
+      - [Strategy Plan](#strategy-plan)
+  - [Web Marketing](#web-marketing)
+  - [Features](#features)
+      - [NavBar](#navbar)
+      - [Home Page](#home-page)
+      - [Pricing Page](#pricing-page)
+      - [Footer](#footer)
+      - [Payment Page](#payment-page)
+        - [Successful payment emails](#successful-payment-emails)
+      - [User Dashboard](#user-dashboard)
+      - [Create Meeting Page](#create-meeting-page)
+      - [Edit Profile Page](#edit-profile-page)
+      - [Settings Page](#settings-page)
+      - [Subscription Page](#subscription-page)
+      - [Register Page](#register-page)
+      - [Login Page](#login-page)
+      - [Contact Form Page](#contact-form-page)
+      - [Alert Messages](#alert-messages)
+      - [Meeting Page](#meeting-page)
+  - [Information Architecture](#information-architecture)
+      - [Database](#database)
+      - [Entity-Relationship Diagram](#entity-relationship-diagram)
+      - [Data Modeling](#data-modeling)
+        - [UserToken Model](#usertoken-model)
+        - [ForgotPasswordToken Model](#forgotpasswordtoken-model)
+        - [User Model](#user-model)
+        - [SubscriptionPlan Model](#subscriptionplan-model)
+        - [Membership Model](#membership-model)
+        - [Payment Model](#payment-model)
+        - [PaymentHistory Model](#paymenthistory-model)
+        - [ContactUs Model](#contactus-model)
+        - [NewsletterSubscription Model](#newslettersubscription-model)
+        - [VideoRoom Model](#videoroom-model)
+  - [Technologies Used](#technologies-used)
+        - [Languages Used](#languages-used)
+        - [Django Packages](#django-packages)
+        - [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
+  - [Testing](#testing)
+  - [Deployment of This Project](#deployment-of-this-project)
+  - [Credits](#credits)
+        - [Content](#content)
+        - [Information Sources / Resources](#information-sources--resources)
 
 ## User Experience - UX
 
@@ -47,11 +101,11 @@ The website is created to be accessible to all users. The website is designed to
 - As a registered user, I want to be able to control microphones of other users, so that I can control them in a meeting I created.
 
 ---
-
 ## Agile Methodology
 
 All functionality and development of this project were managed using GitHub which Projects can be found
 [here](https://github.com/JureSeselj/connect-circle/issues)
+
 ## Design
 
 The idea of the design was taken from [Prime React](https://www.primefaces.org/primereact/). It helped to create clean and attractive design. The simplicity of the design was also taken into consideration as it was a main goal to keep users' attention on the functionality of the application.
@@ -66,7 +120,7 @@ Font-family: Roboto, Helvetica Neue Light, sans-serif;
 
 This font-families are coming from Prime React.
 
-### Images
+### Imagery
 
 The is only one image that was used in the application to make the landing page more eye-catching.
 
@@ -292,7 +346,7 @@ And the following email will be also sent to the user about the payment:
 
 ![Successful payment page]()
 
-The money will be payed to the Dr.Meeting account automatically each month and the user will will be sent the same email each month till the user cancels the subscription.
+The money will be payed to the ConnectCircle account automatically each month and the user will be sent the same email each month till the user cancels the subscription.
 
 User can also download the invoice for the payment.
 
@@ -555,7 +609,7 @@ It will have the following buttons:
 
 ### Database
 
-* The database was created using PostgreSQL.
+
 
 ### Entity-Relationship Diagram
 
@@ -667,3 +721,21 @@ It will have the following buttons:
 | guests_muted | guests_muted | BooleanField | default=False |
 
 ---
+
+## Technologies Used
+
+### Languages Used
+
+#### Django Packages
+
+### Frameworks - Libraries - Programs Used
+
+### Testing
+
+## Deployment of This Project
+
+## Credits
+
+### Content
+
+### Information Sources / Resources
