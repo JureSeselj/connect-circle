@@ -609,12 +609,11 @@ It will have the following buttons:
 
 ### Database
 
-
+* The database was created using PostgreSQL.
 
 ### Entity-Relationship Diagram
 
-
-![ERD]()
+![ERD](documentation/information_architecture.png)
 
 
 ### Data Modeling
